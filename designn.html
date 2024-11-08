@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Adding gradient backgrounds for the different sections */
+    .hero-section {
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      color: white;
+      padding: 100px 0;
+    }
+    .bg-gradient-light {
+      background: linear-gradient(135deg, #f3f3f3 0%, #ffffff 100%);
+      padding: 60px 0;
+    }
+    .bg-gradient-dark {
+      background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+      padding: 60px 0;
+    }
+    .bg-white-section {
+      background-color: #ffffff;
+      padding: 60px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Product</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+      <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+      <li class="nav-item"><a class="btn btn-warning" href="#signup">Sign Up</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section text-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1>Product Landing Page Showcase</h1>
+        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <button class="btn btn-warning mx-2">Details</button>
+        <button class="btn btn-outline-light mx-2">Contact</button>
+      </div>
+      <div class="col-md-6">
+        <img src="image1.jpg" alt="Product showcase" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="bg-white-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Feature 1</h4>
+            <p class="card-text">Lorem ipsum is simply dummy text of the printing industry.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Feature 2</h4>
+            <p class="card-text">Lorem ipsum is simply dummy text of the printing industry.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Feature 3</h4>
+            <p class="card-text">Lorem ipsum is simply dummy text of the printing industry.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Product Structure Section -->
+<section id="about" class="bg-gradient-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="laptop-image.png" alt="Laptop Structure" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h3>Product Basic Structure in Laptop</h3>
+        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <button class="btn btn-primary">View More</button>
+      </div>
+    </div>
+    <div class="row align-items-center mt-5">
+      <div class="col-md-6 order-md-2">
+        <img src="mobile-image.png" alt="Mobile Structure" class="img-fluid">
+      </div>
+      <div class="col-md-6 order-md-1">
+        <h3>Product Basic Structure in Mobile</h3>
+        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <button class="btn btn-primary">View More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Process Steps Section -->
+<section id="process" class="bg-white-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Step 1</h4>
+            <p class="card-text">Lorem ipsum is simply dummy text of the printing industry.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Step 2</h4>
+            <p class="card-text">Lorem ipsum is simply dummy text of the printing industry.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Step 3</h4>
+            <p class="card-text">Lorem ipsum is simply dummy text of the printing industry.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq" class="bg-gradient-light py-5">
+  <div class="container">
+    <h3 class="text-center mb-4">Frequently Asked Questions & Discussions</h3>
+    <div class="accordion" id="faqAccordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Frequently asked question 1
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+          <div class="card-body">
+            Lorem ipsum is simply dummy text of the printing industry.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Subscribe Section -->
+<section id="signup" class="bg-gradient-dark text-center text-white py-5">
+  <div class="container">
+    <h4>Subscribe to Our Daily Newsletter</h4>
+    <form class="form-inline justify-content-center mt-3">
+      <input type="email" class="form-control mr-2" placeholder="Enter your email">
+      <button type="submit" class="btn btn-warning">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer with Social Media Icons -->
+<footer class="bg-dark text-white text-center py-4">
+  <p>Designed by Your Company</p>
+  <div>
+    <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+    <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+</html>
